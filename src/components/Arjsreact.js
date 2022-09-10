@@ -4,7 +4,7 @@ import HomeBtn from "./HomeBtn";
 function Arjsreact() {
   return (
     <>
-    <div className="fixed -z-10">
+    <div>
       <ARCanvas
     camera={{ position: [0, 0, 0] }}
     dpr={window.devicePixelRatio}
