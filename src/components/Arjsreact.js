@@ -22,7 +22,7 @@ function Arjsreact() {
     </ARMarker>
   </ARCanvas>
   </div>
-  <a className="absolute inset-x-0 bg-white" href="http://localhost:3000/reactarjs" >
+  <a className="absolute inset-x-0 bg-white" href="http://kycksto.github.io/reactarjs" >
     <p className=" justify-center">
     Home
     </p> 
