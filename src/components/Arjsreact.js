@@ -1,5 +1,5 @@
 import { ARCanvas, ARMarker } from "@artcom/react-three-arjs";
-import HomeBtn from "./HomeBtn";
+import { Navigate } from "react-router-dom";
 
 function Arjsreact() {
   return (
@@ -22,7 +22,11 @@ function Arjsreact() {
     </ARMarker>
   </ARCanvas>
   </div>
-  <HomeBtn base={'reactarjs'}/>
+  <a className="absolute inset-x-0 bg-white" href="http://localhost:3000/reactarjs" >
+    <p className=" justify-center">
+    Home
+    </p> 
+  </a>
   </>
   );
 }
